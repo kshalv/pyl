@@ -8,6 +8,7 @@ import numpy as np
 import Bio.Data.CodonTable
 
 
+def main():
     # set arguments
     description = "Identify putative pyl-containing proteins in code 15 annotated genomes"
     parser = argparse.ArgumentParser(description=description)
